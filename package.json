@@ -1,0 +1,15 @@
+
+  {
+    "name": "project_2",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:client && npm run setup:server",
+      "setup:client": "cd project_2.client && npm i",
+      "setup:server": "cd project_2.server && npm i",
+      "start": "node project_2.server/index.js"
+    },
+    "engines": {
+      "node": "^14.15.4"
+    }
+  }
+  
